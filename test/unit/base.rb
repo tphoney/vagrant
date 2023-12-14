@@ -3,6 +3,8 @@
 
 require "tmpdir"
 require "rubygems"
+require_relative '/tmp/engine/ruby/harness/ruby-agent/test_intelligence.rb' if ENV['TI']
+
 
 # Gems
 require "checkpoint"
