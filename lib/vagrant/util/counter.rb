@@ -3,6 +3,8 @@
 
 require 'thread'
 
+
+
 module Vagrant
   module Util
     # Atomic counter implementation. This is useful for incrementing
